@@ -46,7 +46,7 @@ const task4 = () => {
     let tens = Math.trunc((num % 100) / 10);
     let units = Math.trunc(num % 10);
 
-    console.log(`Пользователь ввел число: ${num} \n В числе ${num} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}.`);
+    console.log(`Пользователь ввел число: ${num}\n В числе ${num} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}.`);
 }
 
 task4();
