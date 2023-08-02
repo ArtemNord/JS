@@ -48,3 +48,23 @@ const post = {
     },
   ],
 };
+
+console.log(post.author);
+
+const findDislikes = post.comments.map((value) => {
+  if (value.rating.dislikes === 2) {
+    return console.log(value.rating.dislikes);
+  }
+});
+
+const findUserID = post.comments.map((value) => {
+  if (value.userId === 5) {
+    return console.log(value.userId);
+  }
+});
+
+const findText = post.comments.map((value) => {
+  if (value.text === "lorem ipsum 2") {
+    return console.log(value.text);
+  }
+});
