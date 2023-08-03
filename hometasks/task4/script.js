@@ -88,7 +88,7 @@ const products = [
 ];
 
 products.forEach((element) => {
-  element.price = element.price + (element.price / 100) * 15;
+  element.price = element.price - (element.price / 100) * 15;
 });
 console.log(products);
 
